@@ -1,7 +1,7 @@
 # 📑 Project Report: PI Compliance & Image Quality Optimization
 
 
-# 1. STARR Analysis
+## 1. STARR Analysis
 
 - Situation: The Product Image (PI) audit workflow was experiencing significant friction, with a rejection rate representing 15% of the total sample volume. Analysis of 2,000,000 cases revealed that the "First Time Approval Rate" (FTAR) was stagnating at 82%, largely due to strict automated or manual application of "Blurred Image" reason codes. This led to unnecessary vendor re-submissions and increased operational lead times.
 
@@ -9,17 +9,17 @@
 
 - Action: * Data Mining: Used SQL to aggregate rejection data by Seller_ID, focusing on the PI Non-Compliant reason code.
 
-      - Stratified Sampling: Extracted a representative 15% sample size for manual audit to ensure statistical significance.
+  - Stratified Sampling: Extracted a representative 15% sample size for manual audit to ensure statistical significance.
 
-      - SME Collaboration: Partnered with Subject Matter Experts (SMEs) to define a "Compliance Gray Area"—identifying cases where images were technically flagged but still met the customer’s need for product clarity.
+  - SME Collaboration: Partnered with Subject Matter Experts (SMEs) to define a "Compliance Gray Area"—identifying cases where images were technically flagged but still met the customer’s need for product clarity.
 
-      - Stakeholder Influence: Presented a "Correction Report" to cross-functional leadership, advocating for a policy shift regarding specific image artifacts.
+  - Stakeholder Influence: Presented a "Correction Report" to cross-functional leadership, advocating for a policy shift regarding specific image artifacts.
 
 - Result: * Successfully increased the FTAR from 82% to 89% within a single quarter.
 
-      - Achieved a 7% net uplift in approval efficiency.
+ - Achieved a 7% net uplift in approval efficiency.
 
-      - Standardized the new SME Exception Logic across multiple nodes, reducing vendor friction globally.
+ - Standardized the new SME Exception Logic across multiple nodes, reducing vendor friction globally.
   
 
 ### Performance Impact: Before vs. After
@@ -35,7 +35,7 @@ The implementation of the SME Exception Logic resulted in a significant shift in
 
 
 
-# 2. The "Exception" Logic Implementation
+## 2. The "Exception" Logic Implementation
 The core of this project was the transition from a Binary Logic (Blurry = Reject) to a Functional Logic (Does the blur affect the customer's buying decision?.)
 
 I implemented a framework that allowed auditors to approve images previously marked as "PI Non-Compliant" based on three specific criteria:
@@ -49,7 +49,7 @@ I implemented a framework that allowed auditors to approve images previously mar
 
                                                                                                          
 
-# 3. Technical Methodology
+## 3. Technical Methodology
                                                                                                          
 - Tooling: SQL for data extraction and grouping.
 

@@ -49,7 +49,7 @@ ORDER BY Rejection_Count DESC;]
 
 - The Correction Report: A detailed case-study report showcasing "Before vs. After" approval examples to align stakeholders.
 
-  | Metric | Pre-Implementation | Post-Implementation | Delta |
+| Metric | Pre-Implementation | Post-Implementation | Delta |
 | :--- | :--- | :--- | :--- |
 | **First Time Approval Rate (FTAR)** | 82% | **89%** | **+7% Net Increase** |
 | **Non-Compliant Rejection Rate** | 18% | **11%** | **38% Reduction in Rejections** |

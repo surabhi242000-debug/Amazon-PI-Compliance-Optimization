@@ -1,4 +1,4 @@
-#📑 Project Report: PI Compliance & Image Quality Optimization
+# 📑 Project Report: PI Compliance & Image Quality Optimization
 
 
 # 1. STARR Analysis
@@ -20,6 +20,7 @@
       - Achieved a 7% net uplift in approval efficiency.
 
       - Standardized the new SME Exception Logic across multiple nodes, reducing vendor friction globally.
+  
 
 ### Performance Impact: Before vs. After
 The implementation of the SME Exception Logic resulted in a significant shift in operational efficiency.
@@ -33,17 +34,19 @@ The implementation of the SME Exception Logic resulted in a significant shift in
 
 
 
+
 # 2. The "Exception" Logic Implementation
 The core of this project was the transition from a Binary Logic (Blurry = Reject) to a Functional Logic (Does the blur affect the customer's buying decision?.)
 
 I implemented a framework that allowed auditors to approve images previously marked as "PI Non-Compliant" based on three specific criteria:
 
-     - Intentional Depth-of-Field: If the background was blurred but the Product Detail (text and labels) was 100% sharp, the case was moved to "Approved."
+- Intentional Depth-of-Field: If the background was blurred but the Product Detail (text and labels) was 100% sharp, the case was moved to "Approved."
 
-     - Minimal Grain Exception: Images with high-ISO "noise" that did not obscure the product's identifying features were no longer rejected as "Blurred."
+- Minimal Grain Exception: Images with high-ISO "noise" that did not obscure the product's identifying features were no longer rejected as "Blurred."
 
-     - Macro-Focus Allowance: For particular text addresses, slight edge-softness was permitted if the primary contact point was in clear focus.
+- Macro-Focus Allowance: For particular text addresses, slight edge-softness was permitted if the primary contact point was in clear focus.
                                                                                                          
+
                                                                                                          
 
 # 3. Technical Methodology

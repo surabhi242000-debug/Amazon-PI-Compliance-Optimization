@@ -42,12 +42,19 @@ ORDER BY Rejection_Count DESC;]
 ## 📊 Visual Insights & Deliverables
 - The "Pareto" of Rejections: A Pie Chart visualizing the Top 10 Seller IDs responsible for the highest rejection volume.
 
+  _Rejection sample chart:_
+
   ![Rejection sample chart](https://github.com/surabhi242000-debug/Amazon-PI-Compliance-Optimization/blob/main/Top%2010%20Seller%20Rejections.png).
   
 
 - The Correction Report: A detailed case-study report showcasing "Before vs. After" approval examples to align stakeholders.
 
-  ![Correction Report](https://github.com/surabhi242000-debug/Amazon-PI-Compliance-Optimization/blob/main/Implementation_.png).
+  | Metric | Pre-Implementation | Post-Implementation | Delta |
+| :--- | :--- | :--- | :--- |
+| **First Time Approval Rate (FTAR)** | 82% | **89%** | **+7% Net Increase** |
+| **Non-Compliant Rejection Rate** | 18% | **11%** | **38% Reduction in Rejections** |
+| **Process Standard** | Manual/Ad-hoc | **Standardized SOP** | **Consistency** |
+| **Data Volume** | 2,000,000 Cases | 2,000,000 Cases | **Scalable** |
 
 
 
@@ -57,6 +64,9 @@ ORDER BY Rejection_Count DESC;]
 - Accuracy Shift: Improved the overall approval rate from 82% to 89%.
 
 - Global Scale: Successfully implemented the new SOP (Standard Operating Procedure) across multiple nodes, standardizing the exception-handling process for millions of cases.
+
+
+_Improved Approval Rate:_
 
 
 ![Improved Approval Rate](https://github.com/surabhi242000-debug/Amazon-PI-Compliance-Optimization/blob/main/Implementation_.png).

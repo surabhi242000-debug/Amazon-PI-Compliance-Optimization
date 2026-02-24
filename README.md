@@ -19,6 +19,15 @@ Query Logic Overview:
 
 _Note: I did not include the raw script for data privacy, but the logic utilized Window Functions to rank sellers by rejection volume and JOINs to correlate resolution paths_.
 
+```sql
+[SELECT Seller_ID, COUNT(Case_ID) AS Rejection_Count
+FROM Global_PI_Database
+WHERE Case_Status = 'Resolved' 
+  AND Reason_Code = 'PI_Non_Compliant'
+GROUP BY Seller_ID
+ORDER BY Rejection_Count DESC;]
+```
+
 
 
 ## 🔍 Methodology & SME Deep-Dive
